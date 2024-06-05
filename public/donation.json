@@ -1,0 +1,135 @@
+[
+    {
+      "picture": "https://example.com/image1.jpg",
+      "title": "Modern Art Piece",
+      "category": "Art",
+      "category_bg": "#FFD700",
+      "card_bg": "#FFFFFF",
+      "text_color": "#000000",
+      "button_bg": "#FF4500",
+      "description": "A beautiful modern art piece to enhance your living space.",
+      "price": 299.99
+    },
+    {
+      "picture": "https://example.com/image2.jpg",
+      "title": "Vintage Clock",
+      "category": "Antiques",
+      "category_bg": "#8B4513",
+      "card_bg": "#FAF0E6",
+      "text_color": "#000000",
+      "button_bg": "#A52A2A",
+      "description": "An antique vintage clock from the early 1900s.",
+      "price": 150.00
+    },
+    {
+      "picture": "https://example.com/image3.jpg",
+      "title": "Handcrafted Pottery",
+      "category": "Crafts",
+      "category_bg": "#32CD32",
+      "card_bg": "#FFFACD",
+      "text_color": "#000000",
+      "button_bg": "#4682B4",
+      "description": "Beautifully handcrafted pottery made with love.",
+      "price": 45.99
+    },
+    {
+      "picture": "https://example.com/image4.jpg",
+      "title": "Leather Jacket",
+      "category": "Fashion",
+      "category_bg": "#800080",
+      "card_bg": "#F5F5F5",
+      "text_color": "#000000",
+      "button_bg": "#4B0082",
+      "description": "Stylish leather jacket for all occasions.",
+      "price": 120.00
+    },
+    {
+      "picture": "https://example.com/image5.jpg",
+      "title": "Mountain Bike",
+      "category": "Sports",
+      "category_bg": "#0000FF",
+      "card_bg": "#E0FFFF",
+      "text_color": "#000000",
+      "button_bg": "#1E90FF",
+      "description": "Durable and lightweight mountain bike.",
+      "price": 350.00
+    },
+    {
+      "picture": "https://example.com/image6.jpg",
+      "title": "Organic Honey",
+      "category": "Food",
+      "category_bg": "#FFA500",
+      "card_bg": "#FFF8DC",
+      "text_color": "#000000",
+      "button_bg": "#FF6347",
+      "description": "Pure organic honey from local farms.",
+      "price": 15.99
+    },
+    {
+      "picture": "https://example.com/image7.jpg",
+      "title": "Wooden Desk",
+      "category": "Furniture",
+      "category_bg": "#DEB887",
+      "card_bg": "#FFF5EE",
+      "text_color": "#000000",
+      "button_bg": "#D2691E",
+      "description": "Solid wooden desk perfect for home offices.",
+      "price": 220.00
+    },
+    {
+      "picture": "https://example.com/image8.jpg",
+      "title": "Smartphone",
+      "category": "Electronics",
+      "category_bg": "#8A2BE2",
+      "card_bg": "#F0F8FF",
+      "text_color": "#000000",
+      "button_bg": "#7B68EE",
+      "description": "Latest model smartphone with all the new features.",
+      "price": 799.99
+    },
+    {
+      "picture": "https://example.com/image9.jpg",
+      "title": "Yoga Mat",
+      "category": "Fitness",
+      "category_bg": "#20B2AA",
+      "card_bg": "#F0FFF0",
+      "text_color": "#000000",
+      "button_bg": "#3CB371",
+      "description": "Comfortable and durable yoga mat.",
+      "price": 25.99
+    },
+    {
+      "picture": "https://example.com/image10.jpg",
+      "title": "Cookbook",
+      "category": "Books",
+      "category_bg": "#FFC0CB",
+      "card_bg": "#FFE4E1",
+      "text_color": "#000000",
+      "button_bg": "#FF69B4",
+      "description": "Delicious recipes for home cooking.",
+      "price": 29.99
+    },
+    {
+      "picture": "https://example.com/image11.jpg",
+      "title": "Gaming Chair",
+      "category": "Gaming",
+      "category_bg": "#000000",
+      "card_bg": "#F5F5F5",
+      "text_color": "#FFFFFF",
+      "button_bg": "#FF0000",
+      "description": "Ergonomic gaming chair for long hours of play.",
+      "price": 199.99
+    },
+    {
+      "picture": "https://example.com/image12.jpg",
+      "title": "Garden Tools Set",
+      "category": "Garden",
+      "category_bg": "#006400",
+      "card_bg": "#F0FFF0",
+      "text_color": "#000000",
+      "button_bg": "#228B22",
+      "description": "Complete set of garden tools for all your needs.",
+      "price": 39.99
+    }
+  ]
+  
