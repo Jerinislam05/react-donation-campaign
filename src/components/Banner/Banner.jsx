@@ -18,7 +18,7 @@ const Banner = ({ donations, setFilteredDonations }) => {
   return (
     <div className="relative bg-gray-50 h-80 flex justify-center items-center rounded-b-xl">
       <img
-        src="../../assets/Resources/Clothing.png"
+        src="https://i.postimg.cc/pTSBGQg1/cz-Nmcy1wcml2-YXRl-L3-Jhd3-Bpe-GVs-X2lt-YWdlcy93-ZWJza-XRl-X2-Nvbn-Rlbn-Qvb-HIvczkz-LXBt-LTI3-NTdf-MS5qc-Gc.webp"
         alt="Overly"
         className="absolute inset-0 w-full h-full object-cover opacity-10"
       />
