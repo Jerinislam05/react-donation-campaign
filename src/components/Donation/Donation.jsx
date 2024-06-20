@@ -16,10 +16,10 @@ const Donation = () => {
   return (
     <>
       <div className="container mx-auto py-10">
-        <h2 className="text-3xl text-center text-black font-bold mb-6">
+        <h2 className="mt-6 text-black text-2xl text-center font-bold">
           Your Donations
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 mt-4">
           {displayedDonations.map((donation) => (
             <DonationCard key={donation.id} donation={donation} />
           ))}

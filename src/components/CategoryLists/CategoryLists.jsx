@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import CategoryList from "../CategoryList/CategoryList";
 
-const CategoryLists = ({ donations }) => {
+const CategoryLists = () => {
   const [categoryLists, setCategoryLists] = useState([]);
   const [groupedCategories, setGroupedCategories] = useState([]);
 

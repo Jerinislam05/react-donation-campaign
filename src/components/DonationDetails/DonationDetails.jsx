@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { saveDonation } from "../../localStorage";
+import PropTypes from "prop-types";
 
 const DonationDetails = () => {
   const { id } = useParams();
@@ -22,17 +23,7 @@ const DonationDetails = () => {
   if (!cardDetails) {
     return <div>Loading..</div>;
   }
-  const {
-    picture,
-    title,
-    description,
-    price,
-    category,
-    text_color,
-    card_bg,
-    category_bg,
-    button_bg,
-  } = cardDetails;
+  const { picture, title, description, price, text_color } = cardDetails;
 
   const handleDonate = () => {
     toast.success("donation received!", {
@@ -76,6 +67,16 @@ const DonationDetails = () => {
       <ToastContainer />
     </>
   );
+};
+
+DonationDetails.propTypes = {
+  cardDetails: PropTypes.shape({
+    picture: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    category: PropTypes.string.isRequired,
+  }),
 };
 
 export default DonationDetails;

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 const Banner = ({ donations, setFilteredDonations }) => {
   const [searchCategory, setSearchCategory] = useState("");
@@ -12,11 +13,6 @@ const Banner = ({ donations, setFilteredDonations }) => {
       donation.category.toLowerCase().includes(searchCategory.toLowerCase())
     );
     setFilteredDonations(filtered);
-  };
-
-  const handleClearSearch = () => {
-    setSearchCategory("");
-    setFilteredDonations(donations);
   };
 
   return (
@@ -37,24 +33,37 @@ const Banner = ({ donations, setFilteredDonations }) => {
             onChange={handleSearchChange}
             className="border border-gray-300 bg-white text-black rounded-l-md p-2 focus:outline-none w-80"
             placeholder="Search"
+            aria-label="search category"
           />
 
           <button
             onClick={handleSearch}
             className="border border-orange-600 bg-orange-700 text-white p-2 rounded-r-md"
+            aria-label="search button"
           >
             Search
-          </button>
-          <button
-            onClick={handleClearSearch}
-            className="border border-orange-600 bg-orange-700 text-white p-2 rounded-r-md"
-          >
-            Clear
           </button>
         </div>
       </div>
     </div>
   );
+};
+
+Banner.propTypes = {
+  donations: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      picture: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      price: PropTypes.number.isRequired,
+      category: PropTypes.string.isRequired,
+      card_bg: PropTypes.string,
+      text_color: PropTypes.string,
+      button_bg: PropTypes.string,
+    })
+  ).isRequired,
+  setFilteredDonations: PropTypes.func.isRequired,
 };
 
 export default Banner;
